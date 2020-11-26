@@ -1,0 +1,23 @@
+# some more ls aliases
+
+alias zshconfig="vim ~/.zshrc"
+alias ohmyzsh="vim ~/.oh-my-zsh"
+alias ls='ls --color=auto'
+alias dir='dir --color=auto'
+alias vdir='vdir --color=auto'
+
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+alias dlogo='neofetch'
+alias ll='ls -al'
+alias la='ls -a'
+alias l='ls -CF'
+alias cls='printf "\033c"'
+alias vim='nvim'
+
+alias cls="clear"
+alias tt="tree"
+alias logo="neofetch"
+alias filemanager='dde-file-manager'
