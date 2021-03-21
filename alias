@@ -15,9 +15,7 @@ alias ll='ls -al'
 alias la='ls -a'
 alias l='ls -CF'
 alias cls='printf "\033c"'
-alias vim='nvim'
 
 alias cls="clear"
 alias tt="tree"
 alias logo="neofetch"
-alias filemanager='dde-file-manager'
