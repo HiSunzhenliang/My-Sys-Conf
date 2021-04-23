@@ -9,6 +9,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'wakatime/vim-wakatime'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'morhetz/gruvbox'
+Plugin 'junegunn/seoul256.vim'
 ""Plugin 'octol/vim-cpp-enhanced-highlight'
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -28,7 +29,7 @@ filetype plugin on
 "colorscheme atom
 "colorscheme molokai
 " colorscheme luna-term
- colorscheme gruvbox
+colorscheme gruvbox
 ""colorscheme jellybeans
 "colorscheme janah
 set background=dark
@@ -36,6 +37,14 @@ set background=dark
 let g:gruvbox_contrast_light="light"
 let g:gruvbox_contrast_dark="hard"
 let g:gruvbox_improved_warnings=1
+
+
+" seoul256 (dark):
+"   Range:   233 (darkest) ~ 239 (lightest)
+"   Default: 237
+""let g:seoul256_background = 234
+""colo seoul256
+
 
 
 """"""""""""""""""""""""""""""""""""""""""""""" cpp-enhanced-highlight
