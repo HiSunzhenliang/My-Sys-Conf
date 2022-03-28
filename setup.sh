@@ -24,5 +24,7 @@ sudo apt-get install -y python3-setuptools
 # Sys
 cat ./alias >> ~/.zshrc
 
+cat ./zshrc >> ~/.zshrc
+
 # Create ssh key
 ssh-keygen -t rsa
