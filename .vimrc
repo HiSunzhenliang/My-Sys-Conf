@@ -24,7 +24,7 @@ filetype plugin on
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-""""""""""""""""""""""""""""""" 主题相关. 
+""""""""""""""""""""""""""""""" 主题相关.
 " 可选的主题名, 参见 .vim/bundle/vim-colorschemes/colors 目录
 "colorscheme atom
 "colorscheme molokai
@@ -108,5 +108,6 @@ vmap <c-c> "+y
 " reopening a file
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 
+" git commit width
 autocmd Filetype gitcommit setlocal spell textwidth=72
 
