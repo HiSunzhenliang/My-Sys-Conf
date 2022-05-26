@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sudo apt install -y zsh
+sudo apt install -y zsh htop neofetch vim git build-essential
 
 bash ohmyzsh-install.sh
 #sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -15,3 +15,4 @@ cp ./.vim ~ -r
 
 # Create ssh key
 ssh-keygen -t rsa
+
