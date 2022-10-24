@@ -13,6 +13,8 @@ cp ./.vimrc ~
 
 cp ./.vim ~ -r
 
+cp ./.gitconfig ~
+
 # Create ssh key
 ssh-keygen -t rsa
 
